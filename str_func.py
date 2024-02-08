@@ -1,8 +1,9 @@
 def all_caps(input_string):
     """ВСЕ ЗАГЛАВНЫЕ"""
     return input_string.upper()
+
 def capitalize_words(input_string):
-    """ПЕРВАЯ ЗАГЛАВНАЯ БУКВА"""
+    """Первая заглавная буква"""
     return input_string.title()
 
 input_str = input("Строка с разным регистром букв")
@@ -12,4 +13,3 @@ print(result)
 input_string = input("Строки для теста")
 result = capitalize_words(input_string)
 print(result)
-
