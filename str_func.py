@@ -1,4 +1,5 @@
 def all_caps(input_string):
+    """Заглавные букны"""
     return input_string.upper()
 
 
